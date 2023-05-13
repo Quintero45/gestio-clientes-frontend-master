@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Website Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="/src/components/app/app.component.css">
+</head>
+<nav>
+    <div id="container">
+        <div id="navbar">
+            <ul>
+                <li><a routerLink="home" routerLinkActive="active" >Home</a></li>
+                <li><a routerLink="registar-vehiculo" routerLinkActive="active">Registar</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div id="logo">
+                <img src="../assets/Images/image (1).png" alt="">
+            </div>
+            <ol>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ol>
+        </div>
+        <div>
+          <router-outlet></router-outlet>
+        </div>
+    </div>
+  </nav>
+</html>

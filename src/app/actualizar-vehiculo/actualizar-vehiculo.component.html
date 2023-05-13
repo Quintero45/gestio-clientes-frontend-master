@@ -1,0 +1,72 @@
+<div class="col-md-6 offset-md-3">
+  <h3 class="text-center">Actualizar vehiculo</h3>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label>Placa : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="placa"
+        [(ngModel)]="Car.plate"
+        name="placa"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Modelo : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="modelo"
+        [(ngModel)]="Car.model"
+        name="modelo"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Marca : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="marca"
+        [(ngModel)]="Car.brand"
+        name="marca"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Año : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="year"
+        [(ngModel)]="Car.year"
+        name="year"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Tipo : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="tipo"
+        [(ngModel)]="Car.type"
+        name="tipo"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Precio Base : </label>
+      <input
+        type="text"
+        class="form-control"
+        id="Precio Base"
+        [(ngModel)]="Car.basePrice"
+        name="Precio Base"
+      />
+    </div>
+
+    <button class="btn btn-outline-warning">Actualizar</button>
+  </form>
+</div>

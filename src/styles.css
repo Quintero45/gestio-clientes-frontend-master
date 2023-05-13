@@ -1,0 +1,209 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish' , sans-serif;
+}
+#container
+{
+    height: 100vh;
+    width: 100%;
+    background: #eaf5ff;
+    position: relative;
+}
+#container .container-2
+{
+    height: 100vh;
+    width: 100%;
+    background: #eaf5ff;
+    position: relative;
+}
+#navbar
+{
+    height: 15%;
+    width: 90%;
+    clip-path: polygon(100% 0, 95% 50%, 50% 100%, 5% 50%, 0 0);
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background: #0248d4;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul,ol
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 25px 0px;
+}
+ul
+{
+    position: absolute;
+    left: 5%;
+}
+ol
+{
+    position: absolute;
+    right: 5%;
+}
+li
+{
+    margin: 0px 60px;
+    font-size: 23px;
+}
+li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+li a:hover
+{
+    color: #000;
+}
+#logo
+{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 5px;
+    left: calc(52% - 128px);
+}
+#logo img
+{
+    height: 120px;
+}
+#sideImg
+{
+    height: 800px;
+    width: 900px;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    z-index: 999;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+#sideImg img
+{
+    height: 600px;
+}
+#sideImg:hover img
+{
+    animation: animate 2s linear;
+}
+#contentSection
+{
+    height: 400px;
+    width: 750px;
+    position: absolute;
+    left: 5%;
+    top: calc(50% - 200px);
+}
+
+#contentSection h2
+{
+    font-family: sans-serif;
+    font-size: 150px;
+    color: #0248d4;
+    font-weight: 900;
+}
+#contentSection p
+{
+    padding: 0 0 0 20px;
+}
+#contentSection button
+{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #2E77AE;
+    color: #eaf5ff;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 20px ;
+    z-index: 100;
+    position: absolute;
+}
+#contentSection button:hover
+{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #FF8E2B;
+    color: #eaf5ff;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 20px ;
+    z-index: 100;
+    position: absolute;
+}
+#contentSection img
+{
+    height: 900px;
+    position: absolute;
+    top: -200px;
+    left: -100px;
+    filter: drop-shadow(1px 1px 0px #d40219)
+            drop-shadow(-1px -1px 0px #d40219);
+    opacity: 0.08;
+    z-index: 1;
+}
+
+
+*
+
+
+
+
+
+
+#contentSection_RV
+{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    left: 15%;
+    top: calc(50% - 250px);
+}
+#contentSection_RV h6
+{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #FF8E2B;
+    font-weight: 900;
+}
+#contentSection_RV button
+{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #FF8E2B;
+    color: #eaf5ff;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 20px ;
+    z-index: 100;
+    position: absolute;
+}
+#contentSection_RV button:hover
+{
+    height: 70px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: #2E77AE;
+    color: #eaf5ff;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 20px ;
+    z-index: 100;
+    position: absolute;
+}
